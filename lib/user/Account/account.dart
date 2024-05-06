@@ -245,7 +245,7 @@ singout(context)async{
   await sharedpref.clear();
   Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (login)=>SingIn()), (route) => false);
 }
-
+  
 Future<void> lunchurl()async{
   final url=Uri.parse('https://www.termsfeed.com/live/7580bd1f-1af8-498c-8b79-5ad54503b516');
   if(await launchUrl(url)){

@@ -76,7 +76,10 @@ class _MyHomeState extends State<MyHome> {
                         width: 8,
                       ),
                       Image.network(
-                          'https://i.pinimg.com/564x/eb/7d/44/eb7d44fd7c2cbf7b335961e2278d7829.jpg'),
+                          'https://i.pinimg.com/564x/eb/7d/44/eb7d44fd7c2cbf7b335961e2278d7829.jpg',
+                           width: 80, // Adjust the width of the image
+                           height: 80, 
+                           fit: BoxFit.cover,),
                       Text('Hire Driver'),
                       Spacer(),
                       Padding(
@@ -109,7 +112,10 @@ class _MyHomeState extends State<MyHome> {
                         width: 8,
                       ),
                       Image.network(
-                          'https://i.pinimg.com/564x/73/21/0e/73210e9f2718f358a5c6b3855365149c.jpg'),
+                          'https://i.pinimg.com/564x/73/21/0e/73210e9f2718f358a5c6b3855365149c.jpg',
+                          width: 80, // Adjust the width of the image
+                           height: 80, 
+                           fit: BoxFit.cover,),
                       Text('On Road Service'),
                       Spacer(),
                       Padding(
@@ -144,7 +150,10 @@ class _MyHomeState extends State<MyHome> {
                         width: 8,
                       ),
                       Image.network(
-                          'https://i.pinimg.com/564x/15/97/da/1597da4fc45ebd5dd8d170002a7919a1.jpg'),
+                          'https://i.pinimg.com/564x/15/97/da/1597da4fc45ebd5dd8d170002a7919a1.jpg',
+                          width: 80, // Adjust the width of the image
+                           height: 80, 
+                           fit: BoxFit.cover,),
                       Text('Documents'),
                       Spacer(),
                       Padding(

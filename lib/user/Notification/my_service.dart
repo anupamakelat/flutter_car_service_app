@@ -60,7 +60,7 @@ class _MyServiceState extends State<MyService> {
                                   const Padding(
                                     padding: EdgeInsets.only(left: 10, right: 15),
                                   ),
-                                  Text(onRoaddata.contact.toString())
+                                  Text(onRoaddata.problem.toString())
                                   // Text(list[index].contact??"no contact",style: TextStyle(color: Colors.amber),)
                                 ],
                               ),
